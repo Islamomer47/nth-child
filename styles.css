@@ -1,0 +1,132 @@
+.box {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 3px;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+}
+.container span {
+  visibility: hidden;
+  position: relative;
+}
+.container {
+  display: inline-block;
+  height: 40px;
+}
+.box:nth-child(odd) {
+  background-color: yellow;
+}
+.box:nth-child(even) {
+  background-color: rgb(21, 81, 36);
+  position: relative;
+  top: 90%;
+}
+/* the image 2: */
+.container2 {
+  position: relative;
+  top: 100px;
+  display: inline-block;
+  height: 100px;
+}
+.box2 {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 2px;
+  height: 30px;
+  width: 90px;
+  display: inline-block;
+  background-color: rgb(248, 6, 6);
+  text-align: center;
+  padding-top: 3%;
+  color: #ffffff;
+}
+
+div :nth-child(even of .box2) {
+  display: none;
+}
+hr {
+  margin-top: 20px;
+}
+
+/* image 3 */
+.container3 {
+  margin-top: 100px;
+
+  height: 200px;
+}
+.table1 {
+  border-collapse: separate;
+  border-spacing: 9px;
+}
+.td-ex1 {
+  border: 1px solid rgba(0, 0, 0, 0.176);
+  width: 70px;
+  height: 70px;
+}
+
+.G-B-G :nth-child(6n + 1),
+.G-B-G :nth-child(6n + 2),
+.G-B-G :nth-child(6n + 3) {
+  background-color: rgb(27, 116, 28);
+  background-image: url("Screenshot\ 2024-05-13\ 042648.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.G-B-G :nth-child(6n + 4),
+.G-B-G :nth-child(6n + 5),
+.G-B-G :nth-child(6n + 6) {
+  background-color: rgb(0, 0, 255);
+  background-image: url("Screenshot\ 2024-05-13\ 043124.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 8px 10px;
+}
+.B-G-B :nth-child(6n + 1),
+.B-G-B :nth-child(6n + 2),
+.B-G-B :nth-child(6n + 3) {
+  background-color: rgb(0, 0, 255);
+  background-image: url("Screenshot\ 2024-05-13\ 043124.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 8px 10px;
+}
+.B-G-B :nth-child(6n + 4),
+.B-G-B :nth-child(6n + 5),
+.B-G-B :nth-child(6n + 6) {
+  background-color: rgb(27, 116, 28);
+  background-image: url("Screenshot\ 2024-05-13\ 042648.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+
+/* image 4*/
+.container4 {
+  margin-top: 100px;
+  height: 200px;
+}
+.td-ex4 {
+  border: 2px solid rgb(0, 0, 0);
+  width: 50px;
+  height: 50px;
+  background-color: skyblue;
+}
+.table2 {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+.select :nth-child(n + 6) {
+  background-color: rgb(193, 111, 16);
+}
+.select2 :nth-child(-n + 5) {
+  background-color: rgb(193, 111, 16);
+}
+.select3 :nth-child(4n + 1) {
+  background-color: rgb(193, 111, 16);
+}
+.select4 :nth-last-child(-n + 5) {
+  background-color: rgb(193, 111, 16);
+}
+.select5 :nth-last-child(2) {
+  background-color: rgb(193, 111, 16);
+}
